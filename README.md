@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/miloszsobczak/react-ci.svg?branch=master)](https://travis-ci.com/miloszsobczak/react-ci)
+[![Build Status](https://travis-ci.com/miloszsobczak/hack-pwa.svg?branch=master)](https://travis-ci.com/miloszsobczak/hack-pwa)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
