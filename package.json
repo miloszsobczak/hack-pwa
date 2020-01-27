@@ -2,6 +2,7 @@
   "name": "hack-pwa",
   "version": "0.1.0",
   "private": true,
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -36,21 +37,23 @@
       "last 1 safari version"
     ]
   },
-  "collectCoverageFrom": [
-    "src/features/**/*.{ts,tsx}",
-    "!src/features/**/*.stories.{ts,tsx}",
-    "src/pages/**/*.{ts,tsx}"
-  ],
-  "coverageReporters": [
-    "text",
-    "html"
-  ],
-  "coverageThreshold": {
-    "global": {
-      "branches": 80,
-      "functions": 80,
-      "lines": 80,
-      "statements": 80
+  "jest": {
+    "collectCoverageFrom": [
+      "src/features/**/*.{ts,tsx}",
+      "!src/features/**/*.stories.{ts,tsx}",
+      "src/pages/**/*.{ts,tsx}"
+    ],
+    "coverageReporters": [
+      "text",
+      "html"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
     }
   }
 }
