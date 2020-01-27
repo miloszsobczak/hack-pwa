@@ -35,5 +35,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "collectCoverageFrom": [
+    "src/features/**/*.{ts,tsx}",
+    "!src/features/**/*.stories.{ts,tsx}",
+    "src/pages/**/*.{ts,tsx}"
+  ],
+  "coverageReporters": [
+    "text",
+    "html"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 80,
+      "functions": 80,
+      "lines": 80,
+      "statements": 80
+    }
   }
 }
