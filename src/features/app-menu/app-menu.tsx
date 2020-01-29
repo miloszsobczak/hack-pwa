@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Menu, Button } from 'semantic-ui-react';
 
-import {
-    Switch,
-    Route,
-    Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { fetchAsk, fetchJobs, fetchNewest, fetchNews, fetchShow } from '../news/news.action';
 
 const AppMenu: React.FC = () => {

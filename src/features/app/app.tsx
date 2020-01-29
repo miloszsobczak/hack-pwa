@@ -4,8 +4,7 @@ import { Grid } from 'semantic-ui-react';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
 } from 'react-router-dom';
 
 import './app.scss';
