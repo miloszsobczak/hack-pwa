@@ -20,7 +20,7 @@ export default class NewsProvider {
     }
 
     static GET_NEWEST(page = 1): Promise<NewsFeedItem[]> {
-        return fetch(buildUrl(RESOURCES.NEWS, page))
+        return fetch(buildUrl(RESOURCES.NEWEST, page))
             .then(result => result.json());
     }
 
