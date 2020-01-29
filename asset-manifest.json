@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hack-pwa/static/css/main.b25ca50b.chunk.css",
+    "main.js": "/hack-pwa/static/js/main.1404025b.chunk.js",
+    "main.js.map": "/hack-pwa/static/js/main.1404025b.chunk.js.map",
+    "runtime-main.js": "/hack-pwa/static/js/runtime-main.a89bbde5.js",
+    "runtime-main.js.map": "/hack-pwa/static/js/runtime-main.a89bbde5.js.map",
+    "static/css/2.843aea29.chunk.css": "/hack-pwa/static/css/2.843aea29.chunk.css",
+    "static/js/2.815d7c14.chunk.js": "/hack-pwa/static/js/2.815d7c14.chunk.js",
+    "static/js/2.815d7c14.chunk.js.map": "/hack-pwa/static/js/2.815d7c14.chunk.js.map",
+    "index.html": "/hack-pwa/index.html",
+    "precache-manifest.249e87193c812b3aa78127e05e046a00.js": "/hack-pwa/precache-manifest.249e87193c812b3aa78127e05e046a00.js",
+    "service-worker.js": "/hack-pwa/service-worker.js",
+    "static/css/2.843aea29.chunk.css.map": "/hack-pwa/static/css/2.843aea29.chunk.css.map",
+    "static/css/main.b25ca50b.chunk.css.map": "/hack-pwa/static/css/main.b25ca50b.chunk.css.map",
+    "static/js/2.815d7c14.chunk.js.LICENSE": "/hack-pwa/static/js/2.815d7c14.chunk.js.LICENSE",
+    "static/media/app.scss": "/hack-pwa/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a89bbde5.js",
+    "static/css/2.843aea29.chunk.css",
+    "static/js/2.815d7c14.chunk.js",
+    "static/css/main.b25ca50b.chunk.css",
+    "static/js/main.1404025b.chunk.js"
+  ]
+}
